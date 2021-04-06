@@ -1,0 +1,159 @@
+body {
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    color: rgb(70,70,70);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(70,70,70);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.links_header {
+    margin-top: 12px;
+}
+
+header{
+    display:flex;
+    justify-content: flex-end;
+}
+
+header a{
+    margin-right: 15px;
+}
+
+.link_app {
+    margin-top: 10px;
+}
+
+#grafik1 {
+    height: 20px;
+    width: 20px;
+}
+
+#grafik2 {
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #1a73e8;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#content {
+    width: 500px;
+    margin: 200px auto;
+}
+
+#image {
+    text-align: center;
+}
+
+#image img {
+    width: 300px;
+}
+
+#search {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-item: center;
+    border: 1px solid rgb(211,211,211);
+    border-radius: 22px;
+
+}
+
+#search: hover {
+    box-shadow: 3px 11px 44px 24px rgba(204,196,204,0.95);
+}
+
+#search input {
+    width: 450px;
+    border: 0;
+}
+
+.svgicon {
+    width: 24px;
+    heigt: 24px;
+    padding: 5px;
+}
+
+
+#buttons {
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+button{
+    background-color: rgb(245,245,245)
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    color: rgb(70,70,70);
+    border: none;
+    height: 40px;
+    width:200 px;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245,245,245);
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    font-color: rgb(220,220,220)
+    border: 1px solid black;
+}
+
+#country {
+    height: 60px;
+    padding-top: 17px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(192,192,192);
+    color: #70757a;
+}
+
+.footer_icon {
+    height: 14px;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    white-space: nowrap;}
+
+.footer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.links_footer {
+    justify-content: flex-start;
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links_footer a {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+}
